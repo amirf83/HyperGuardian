@@ -1,0 +1,14 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "hyperguardian"
+version = "0.1.0"
+description = "Agentless network audit MVP for internal SME networks"
+readme = "README.md"
+requires-python = ">=3.9"
+dependencies = []
+
+[project.scripts]
+hyperguardian = "hyperguardian.cli:main"
